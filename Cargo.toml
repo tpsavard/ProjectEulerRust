@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "utils",
+    "p35",
+    "p36",
+    "p37",
+]
