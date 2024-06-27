@@ -23,9 +23,9 @@ pub fn generate_primes(max: i32) -> Vec<i32> {
     if max < 2 {
         return vec![];
     }
-    
+
     let k = (((max - 1) / 2) as f64).floor();
-    
+
     let mut range = vec![true; (k + 1.0) as usize];
     range[0] = false;
     for i in 1..(k.sqrt() as i32) {
@@ -53,7 +53,7 @@ pub fn generate_primes(max: i32) -> Vec<i32> {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    // use super::*;
 
     #[test]
     fn is_prime_test() {

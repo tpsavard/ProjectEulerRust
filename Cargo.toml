@@ -1,8 +1,3 @@
 [workspace]
 
-members = [
-    "utils",
-    "p35",
-    "p36",
-    "p37",
-]
+members = ["utils", "p35", "p36", "p37", "p38"]
