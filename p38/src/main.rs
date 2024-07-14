@@ -32,7 +32,7 @@ fn get_pandigital_val(n: i32) -> Option<i32> {
         if digits.len() == 9 { break; }
         if digits.len() > 9 { return None; }
     }
-    if (is_pandigital(&digits, &mut[false; 9])) {
+    if is_pandigital(&digits, &mut[false; 9]) {
         return Some(dton(&digits));
     } else {
         return None;
